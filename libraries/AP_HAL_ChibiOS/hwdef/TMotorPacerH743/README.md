@@ -1,6 +1,7 @@
 # T-Motor Pacer H743 Flight Controller
 
-The **T-Motor Pacer H743** is a full-size H7 flight controller from T-Motor.
+The **T-Motor Pacer H743** is a full-size H7 flight controller from T-Motor.  
+Rotation adjusted with MCU on top and USB-C Port in flight direction.
 
 ## Key differences vs. H7 Mini
 

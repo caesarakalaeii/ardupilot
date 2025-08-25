@@ -187,7 +187,7 @@ ROMFS_WILDCARD libraries/AP_OSD/fonts/font*.bin
 
 # IMU setup - Minimal test configuration
 SPIDEV mpu6000 SPI1 DEVID1 GYRO2_CS  MODE3   1*MHZ   8*MHZ   # moved MPU6000 to SPI1 on CS PE11
-IMU    Invensense SPI:mpu6000 ROTATION_PITCH_180_YAW_90      # adjusted orientation for MPU6000
+IMU    Invensense SPI:mpu6000 ROTATION_NONE                  # adjusted orientation for MPU6000
 
 DMA_NOSHARE  TIM5_UP TIM3_UP TIM8_UP SPI1* SPI2* SPI4*
 DMA_PRIORITY TIM5_UP TIM3_UP TIM8_UP SPI1* SPI2* SPI4*
